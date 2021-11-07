@@ -1,0 +1,25 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "A note taking app built with node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shashankkatte/node-notes-app.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Shashank Katte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shashankkatte/node-notes-app/issues"
+  },
+  "homepage": "https://github.com/shashankkatte/node-notes-app#readme",
+  "dependencies": {
+    "validator": "^13.5.2"
+  }
+}
