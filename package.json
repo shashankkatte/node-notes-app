@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/shashankkatte/node-notes-app#readme",
   "dependencies": {
+    "chalk": "^4.1.2",
     "validator": "^13.5.2"
   }
 }
