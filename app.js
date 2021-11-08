@@ -1,9 +1,9 @@
 const chalk = require('chalk');
-
 const getNotes = require('./notes.js');
 
-const msg = getNotes();
+const command = !process.argv[2] ? null : process.argv[2];
+console.log(command);
 
-console.log(msg);
-
-console.log(chalk.green('Success!'));
+if (String(command).toUpperCase() === 'ADD') {
+  console.log(chalk.blueBright('Adding new note!'));
+}
